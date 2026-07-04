@@ -1,0 +1,32 @@
+[gd_resource type="Resource" script_class="GameCoreConfig" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://shared/ShinokuteGameCore/addons/shinokute_game_core/core/game_core_config.gd" id="1_core_config"]
+
+[resource]
+script = ExtResource("1_core_config")
+game_id = "bloxchain"
+display_name = "BloxChain"
+firebase_project_id = "foodapp-7ff6b"
+firestore_api_key = "AIzaSyCn3QkPRiv1vq6jZ-TBfTDF9bDhEMYTpr0"
+geolocation_url = "https://foodapp-7ff6b.web.app/api/location"
+username_min_length = 3
+username_max_length = 15
+allow_skip_username = true
+require_username_on_first_launch = true
+default_username_prefix = "Player"
+leaderboard_limit = 15
+leaderboard_collections = {
+"chaos": "leaderboard_chaos",
+"classic": "leaderboard",
+"default": "leaderboard"
+}
+score_labels = {
+"chaos": "score",
+"classic": "score",
+"default": "score"
+}
+score_sort_directions = {
+"chaos": "DESCENDING",
+"classic": "DESCENDING",
+"default": "DESCENDING"
+}

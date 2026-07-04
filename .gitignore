@@ -13,6 +13,7 @@ BlockPuzzleTemplate.zip
 # Addons / MCP files that are not part of the game source
 blender_mcp_addon.py
 mcp_interaction_server.gd
+!Scripts/mcp_interaction_server.gd
 
 # Temporary/Cache folders
 Export/*

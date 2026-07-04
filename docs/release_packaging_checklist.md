@@ -6,9 +6,18 @@
 - Android preset: `Android`
 - Main scene: `res://Scenes/Main/Main.tscn`
 - Runtime manifest: `docs/runtime_asset_manifest.json`
+- Required reskin doctrine: `shared/ShinokuteGameCore/docs/reskin_core_skin_boundary.md`
 - Asset optimization policy: `docs/mobile_html5_asset_optimization_checklist.md`
 - Audio policy: `docs/audio_pipeline.md`
 - VFX policy: `docs/fake3d_vfx_checklist.md`
+
+## Required Reskin Reading
+
+MUST READ BEFORE RESKIN: `shared/ShinokuteGameCore/docs/reskin_core_skin_boundary.md`.
+
+Ownership rule: Core = behavior; Game skin = game-specific art; Function skin = game-specific presentation for a shared feature. BloxChain owns the block game skin, modal/function skin, board visuals, VFX style, layout, assets, fonts, copy, and export allowlist. `ShinokuteGameCore` owns reusable behavior contracts only.
+
+No fallback: do not invent fallback assets, fallback config, fallback Firebase collection names, fallback score labels, or fallback publish paths unless owner explicitly approves that exact fallback.
 
 ## Current Pass Evidence
 
