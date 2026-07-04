@@ -7,6 +7,7 @@
 - Main scene: `res://Scenes/Main/Main.tscn`
 - Runtime manifest: `docs/runtime_asset_manifest.json`
 - Required reskin doctrine: `shared/ShinokuteGameCore/docs/reskin_core_skin_boundary.md`
+- Required web publish runbook: `C:/Users/Admin/Desktop/ShinokuteGameCore/docs/godot_web_publish_runbook.md`
 - Asset optimization policy: `docs/mobile_html5_asset_optimization_checklist.md`
 - Audio policy: `docs/audio_pipeline.md`
 - VFX policy: `docs/fake3d_vfx_checklist.md`
