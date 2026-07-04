@@ -14,7 +14,7 @@ config/name="BloxChain"
 config/version="1.0.39"
 run/main_scene="res://Scenes/Main/Main.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
-config/icon="res://icon.png"
+config/icon="res://Assets/Sprites/bloxchain_logo.png"
 
 [audio]
 
